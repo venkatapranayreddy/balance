@@ -102,7 +102,8 @@ var budgetController = (function(){
                 
                 data.budget = data.totals.inc - data.totals.exp;
                 
-                
+     document.getElementById("RemainingAmount").innerHTML=data.budget-102638.23;
+
                 
                 
             },
